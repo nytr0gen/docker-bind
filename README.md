@@ -1,5 +1,5 @@
 # docker-bind
 
 ```
-docker run -d -p ip:53:53 -v /var/bind/:/var/bind vulpe03/bind
+docker run -d -p 53:53 -v /var/bind/:/var/bind --net=host vulpe03/bind
 ```
